@@ -9,7 +9,7 @@ $ gem install cocoapods
 * 在 Podfile 中指定 BPush
 ```swift
 target '<Your Target Name>' do
-    pod 'BPush'
+    pod 'BPushSDK-ios'
 end
 ```
 * 執行以下命令：
