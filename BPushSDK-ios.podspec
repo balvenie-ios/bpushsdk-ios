@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   }
   s.author           = { 'elena.liu' => 'elena.liu@baifu-tech.net' }
   s.source           = { :http => 'https://github.com/balvenie-ios/BPushSDK-ios/releases/download/1.0.2/BPush.xcframework.zip'}
-  s.platform         = :ios, '14.0' 
+  s.platform         = :ios, '11.0' 
   s.vendored_frameworks = 'BPush.xcframework'
   
 end
