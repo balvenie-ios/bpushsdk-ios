@@ -6,6 +6,9 @@
 ```
 $ gem install cocoapods
 ```
+```
+$ pod init
+```
 * 在 Podfile 中指定 BPush
 ```swift
 target '<Your Target Name>' do
