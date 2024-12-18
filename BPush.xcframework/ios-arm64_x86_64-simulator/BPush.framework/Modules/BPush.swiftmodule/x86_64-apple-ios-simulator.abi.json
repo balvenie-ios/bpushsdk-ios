@@ -1,0 +1,3040 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BPush"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIError",
+        "printedName": "APIError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "networkError",
+            "printedName": "networkError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BPush.APIError.Type) -> (any Swift.Error) -> BPush.APIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> BPush.APIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "BPush.APIError",
+                        "usr": "s:5BPush8APIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BPush.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "BPush.APIError",
+                        "usr": "s:5BPush8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5BPush8APIErrorO12networkErroryACs0D0_pcACmF",
+            "mangledName": "$s5BPush8APIErrorO12networkErroryACs0D0_pcACmF",
+            "moduleName": "BPush",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "bundleIDNotExist",
+            "printedName": "bundleIDNotExist",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BPush.APIError.Type) -> BPush.APIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIError",
+                    "printedName": "BPush.APIError",
+                    "usr": "s:5BPush8APIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BPush.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "BPush.APIError",
+                        "usr": "s:5BPush8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5BPush8APIErrorO16bundleIDNotExistyA2CmF",
+            "mangledName": "$s5BPush8APIErrorO16bundleIDNotExistyA2CmF",
+            "moduleName": "BPush",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "authKeyFailed",
+            "printedName": "authKeyFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BPush.APIError.Type) -> BPush.APIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIError",
+                    "printedName": "BPush.APIError",
+                    "usr": "s:5BPush8APIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BPush.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "BPush.APIError",
+                        "usr": "s:5BPush8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5BPush8APIErrorO13authKeyFailedyA2CmF",
+            "mangledName": "$s5BPush8APIErrorO13authKeyFailedyA2CmF",
+            "moduleName": "BPush",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "encodeBodyFailed",
+            "printedName": "encodeBodyFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BPush.APIError.Type) -> BPush.APIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIError",
+                    "printedName": "BPush.APIError",
+                    "usr": "s:5BPush8APIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BPush.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "BPush.APIError",
+                        "usr": "s:5BPush8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5BPush8APIErrorO16encodeBodyFailedyA2CmF",
+            "mangledName": "$s5BPush8APIErrorO16encodeBodyFailedyA2CmF",
+            "moduleName": "BPush",
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush8APIErrorO7messageSSvp",
+            "mangledName": "$s5BPush8APIErrorO7messageSSvp",
+            "moduleName": "BPush",
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush8APIErrorO7messageSSvg",
+                "mangledName": "$s5BPush8APIErrorO7messageSSvg",
+                "moduleName": "BPush",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5BPush8APIErrorO",
+        "mangledName": "$s5BPush8APIErrorO",
+        "moduleName": "BPush",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "API",
+        "printedName": "API",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "API",
+                "printedName": "BPush.API",
+                "usr": "s:5BPush3APIC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush3APIC6sharedACvpZ",
+            "mangledName": "$s5BPush3APIC6sharedACvpZ",
+            "moduleName": "BPush",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "API",
+                    "printedName": "BPush.API",
+                    "usr": "s:5BPush3APIC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush3APIC6sharedACvgZ",
+                "mangledName": "$s5BPush3APIC6sharedACvgZ",
+                "moduleName": "BPush",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "API",
+                    "printedName": "BPush.API",
+                    "usr": "s:5BPush3APIC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush3APIC6sharedACvsZ",
+                "mangledName": "$s5BPush3APIC6sharedACvsZ",
+                "moduleName": "BPush",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush3APIC6sharedACvMZ",
+                "mangledName": "$s5BPush3APIC6sharedACvMZ",
+                "moduleName": "BPush",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "domainURL",
+            "printedName": "domainURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush3APIC9domainURLSSvp",
+            "mangledName": "$s5BPush3APIC9domainURLSSvp",
+            "moduleName": "BPush",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush3APIC9domainURLSSvg",
+                "mangledName": "$s5BPush3APIC9domainURLSSvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush3APIC9domainURLSSvs",
+                "mangledName": "$s5BPush3APIC9domainURLSSvs",
+                "moduleName": "BPush",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush3APIC9domainURLSSvM",
+                "mangledName": "$s5BPush3APIC9domainURLSSvM",
+                "moduleName": "BPush",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush3APIC4pathSSvp",
+            "mangledName": "$s5BPush3APIC4pathSSvp",
+            "moduleName": "BPush",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush3APIC4pathSSvg",
+                "mangledName": "$s5BPush3APIC4pathSSvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush3APIC4pathSSvs",
+                "mangledName": "$s5BPush3APIC4pathSSvs",
+                "moduleName": "BPush",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush3APIC4pathSSvM",
+                "mangledName": "$s5BPush3APIC4pathSSvM",
+                "moduleName": "BPush",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeoutInterval",
+            "printedName": "timeoutInterval",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush3APIC15timeoutIntervalSdvp",
+            "mangledName": "$s5BPush3APIC15timeoutIntervalSdvp",
+            "moduleName": "BPush",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush3APIC15timeoutIntervalSdvg",
+                "mangledName": "$s5BPush3APIC15timeoutIntervalSdvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush3APIC15timeoutIntervalSdvs",
+                "mangledName": "$s5BPush3APIC15timeoutIntervalSdvs",
+                "moduleName": "BPush",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush3APIC15timeoutIntervalSdvM",
+                "mangledName": "$s5BPush3APIC15timeoutIntervalSdvM",
+                "moduleName": "BPush",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "sendRegisterTokenRequest",
+            "printedName": "sendRegisterTokenRequest(pushToken:appKey:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.HTTPURLResponse?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.HTTPURLResponse?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.HTTPURLResponse?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "HTTPURLResponse",
+                            "printedName": "Foundation.HTTPURLResponse",
+                            "usr": "c:objc(cs)NSHTTPURLResponse"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5BPush3APIC24sendRegisterTokenRequest04pushE06appKey10completionySS_SSySo17NSHTTPURLResponseCSg_s5Error_pSgtctF",
+            "mangledName": "$s5BPush3APIC24sendRegisterTokenRequest04pushE06appKey10completionySS_SSySo17NSHTTPURLResponseCSg_s5Error_pSgtctF",
+            "moduleName": "BPush",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "API",
+                "printedName": "BPush.API",
+                "usr": "s:5BPush3APIC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5BPush3APICACycfc",
+            "mangledName": "$s5BPush3APICACycfc",
+            "moduleName": "BPush",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5BPush3APIC",
+        "mangledName": "$s5BPush3APIC",
+        "moduleName": "BPush",
+        "isOpen": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RegisterTokenRequestBody",
+        "printedName": "RegisterTokenRequestBody",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "deviceID",
+            "printedName": "deviceID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush24RegisterTokenRequestBodyV8deviceIDSSvp",
+            "mangledName": "$s5BPush24RegisterTokenRequestBodyV8deviceIDSSvp",
+            "moduleName": "BPush",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush24RegisterTokenRequestBodyV8deviceIDSSvg",
+                "mangledName": "$s5BPush24RegisterTokenRequestBodyV8deviceIDSSvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "platform",
+            "printedName": "platform",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush24RegisterTokenRequestBodyV8platformSSvp",
+            "mangledName": "$s5BPush24RegisterTokenRequestBodyV8platformSSvp",
+            "moduleName": "BPush",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush24RegisterTokenRequestBodyV8platformSSvg",
+                "mangledName": "$s5BPush24RegisterTokenRequestBodyV8platformSSvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush24RegisterTokenRequestBodyV5tokenSSvp",
+            "mangledName": "$s5BPush24RegisterTokenRequestBodyV5tokenSSvp",
+            "moduleName": "BPush",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush24RegisterTokenRequestBodyV5tokenSSvg",
+                "mangledName": "$s5BPush24RegisterTokenRequestBodyV5tokenSSvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "env",
+            "printedName": "env",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush24RegisterTokenRequestBodyV3envSSvp",
+            "mangledName": "$s5BPush24RegisterTokenRequestBodyV3envSSvp",
+            "moduleName": "BPush",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush24RegisterTokenRequestBodyV3envSSvg",
+                "mangledName": "$s5BPush24RegisterTokenRequestBodyV3envSSvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bundleID",
+            "printedName": "bundleID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush24RegisterTokenRequestBodyV8bundleIDSSvp",
+            "mangledName": "$s5BPush24RegisterTokenRequestBodyV8bundleIDSSvp",
+            "moduleName": "BPush",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush24RegisterTokenRequestBodyV8bundleIDSSvg",
+                "mangledName": "$s5BPush24RegisterTokenRequestBodyV8bundleIDSSvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush24RegisterTokenRequestBodyV7versionSSvp",
+            "mangledName": "$s5BPush24RegisterTokenRequestBodyV7versionSSvp",
+            "moduleName": "BPush",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 5,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush24RegisterTokenRequestBodyV7versionSSvg",
+                "mangledName": "$s5BPush24RegisterTokenRequestBodyV7versionSSvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appVersion",
+            "printedName": "appVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush24RegisterTokenRequestBodyV10appVersionSSvp",
+            "mangledName": "$s5BPush24RegisterTokenRequestBodyV10appVersionSSvp",
+            "moduleName": "BPush",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 6,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush24RegisterTokenRequestBodyV10appVersionSSvg",
+                "mangledName": "$s5BPush24RegisterTokenRequestBodyV10appVersionSSvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceBrand",
+            "printedName": "deviceBrand",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush24RegisterTokenRequestBodyV11deviceBrandSSvp",
+            "mangledName": "$s5BPush24RegisterTokenRequestBodyV11deviceBrandSSvp",
+            "moduleName": "BPush",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 7,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush24RegisterTokenRequestBodyV11deviceBrandSSvg",
+                "mangledName": "$s5BPush24RegisterTokenRequestBodyV11deviceBrandSSvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceModel",
+            "printedName": "deviceModel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush24RegisterTokenRequestBodyV11deviceModelSSvp",
+            "mangledName": "$s5BPush24RegisterTokenRequestBodyV11deviceModelSSvp",
+            "moduleName": "BPush",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 8,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush24RegisterTokenRequestBodyV11deviceModelSSvg",
+                "mangledName": "$s5BPush24RegisterTokenRequestBodyV11deviceModelSSvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "osVersion",
+            "printedName": "osVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush24RegisterTokenRequestBodyV9osVersionSSvp",
+            "mangledName": "$s5BPush24RegisterTokenRequestBodyV9osVersionSSvp",
+            "moduleName": "BPush",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 9,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush24RegisterTokenRequestBodyV9osVersionSSvg",
+                "mangledName": "$s5BPush24RegisterTokenRequestBodyV9osVersionSSvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RegisterTokenRequestBody",
+                "printedName": "BPush.RegisterTokenRequestBody",
+                "usr": "s:5BPush24RegisterTokenRequestBodyV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5BPush24RegisterTokenRequestBodyV5tokenACSS_tcfc",
+            "mangledName": "$s5BPush24RegisterTokenRequestBodyV5tokenACSS_tcfc",
+            "moduleName": "BPush",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RegisterTokenRequestBody",
+                "printedName": "BPush.RegisterTokenRequestBody",
+                "usr": "s:5BPush24RegisterTokenRequestBodyV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5BPush24RegisterTokenRequestBodyV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s5BPush24RegisterTokenRequestBodyV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "BPush",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5BPush24RegisterTokenRequestBodyV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s5BPush24RegisterTokenRequestBodyV6encode2toys7Encoder_p_tKF",
+            "moduleName": "BPush",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5BPush24RegisterTokenRequestBodyV",
+        "mangledName": "$s5BPush24RegisterTokenRequestBodyV",
+        "moduleName": "BPush",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BPush"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BPush"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "BPush"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BPush",
+        "printedName": "BPush",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPushAAC10identifierSSSgvpZ",
+            "mangledName": "$s5BPushAAC10identifierSSSgvpZ",
+            "moduleName": "BPush",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPushAAC10identifierSSSgvgZ",
+                "mangledName": "$s5BPushAAC10identifierSSSgvgZ",
+                "moduleName": "BPush",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appKey",
+            "printedName": "appKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPushAAC6appKeySSSgvpZ",
+            "mangledName": "$s5BPushAAC6appKeySSSgvpZ",
+            "moduleName": "BPush",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPushAAC6appKeySSSgvgZ",
+                "mangledName": "$s5BPushAAC6appKeySSSgvgZ",
+                "moduleName": "BPush",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPushAAC7versionSSvpZ",
+            "mangledName": "$s5BPushAAC7versionSSvpZ",
+            "moduleName": "BPush",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPushAAC7versionSSvgZ",
+                "mangledName": "$s5BPushAAC7versionSSvgZ",
+                "moduleName": "BPush",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "completion",
+            "printedName": "completion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(((any Swift.Error)?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "((any Swift.Error)?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPushAAC10completionys5Error_pSgcSgvpZ",
+            "mangledName": "$s5BPushAAC10completionys5Error_pSgcSgvpZ",
+            "moduleName": "BPush",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(((any Swift.Error)?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "((any Swift.Error)?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "(any Swift.Error)?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "any Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPushAAC10completionys5Error_pSgcSgvgZ",
+                "mangledName": "$s5BPushAAC10completionys5Error_pSgcSgvgZ",
+                "moduleName": "BPush",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(((any Swift.Error)?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "((any Swift.Error)?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "(any Swift.Error)?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "any Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPushAAC10completionys5Error_pSgcSgvsZ",
+                "mangledName": "$s5BPushAAC10completionys5Error_pSgcSgvsZ",
+                "moduleName": "BPush",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPushAAC10completionys5Error_pSgcSgvMZ",
+                "mangledName": "$s5BPushAAC10completionys5Error_pSgcSgvMZ",
+                "moduleName": "BPush",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(appKey:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(((any Swift.Error)?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "((any Swift.Error)?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BPush@objc(cs)BPush(cm)registerWithAppKey:completion:",
+            "mangledName": "$s5BPushAAC8register6appKey10completionySS_ys5Error_pSgcSgtFZ",
+            "moduleName": "BPush",
+            "static": true,
+            "objc_name": "registerWithAppKey:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleDeviceToken",
+            "printedName": "handleDeviceToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BPush@objc(cs)BPush(cm)handleDeviceToken:",
+            "mangledName": "$s5BPushAAC17handleDeviceTokenyy10Foundation4DataVFZ",
+            "moduleName": "BPush",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BPush",
+                "printedName": "BPush.BPush",
+                "usr": "c:@M@BPush@objc(cs)BPush"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BPush@objc(cs)BPush(im)init",
+            "mangledName": "$s5BPushAACABycfc",
+            "moduleName": "BPush",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BPush@objc(cs)BPush",
+        "mangledName": "$s5BPushAAC",
+        "moduleName": "BPush",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BPushError",
+        "printedName": "BPushError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidAppKey",
+            "printedName": "invalidAppKey",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BPush.BPushError.Type) -> BPush.BPushError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BPushError",
+                    "printedName": "BPush.BPushError",
+                    "usr": "s:5BPush0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BPush.BPushError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BPushError",
+                        "printedName": "BPush.BPushError",
+                        "usr": "s:5BPush0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5BPush0A5ErrorO13invalidAppKeyyA2CmF",
+            "mangledName": "$s5BPush0A5ErrorO13invalidAppKeyyA2CmF",
+            "moduleName": "BPush",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "invalidDeviceToken",
+            "printedName": "invalidDeviceToken",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BPush.BPushError.Type) -> BPush.BPushError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BPushError",
+                    "printedName": "BPush.BPushError",
+                    "usr": "s:5BPush0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BPush.BPushError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BPushError",
+                        "printedName": "BPush.BPushError",
+                        "usr": "s:5BPush0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5BPush0A5ErrorO18invalidDeviceTokenyA2CmF",
+            "mangledName": "$s5BPush0A5ErrorO18invalidDeviceTokenyA2CmF",
+            "moduleName": "BPush",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "invalidParameters",
+            "printedName": "invalidParameters",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BPush.BPushError.Type) -> BPush.BPushError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BPushError",
+                    "printedName": "BPush.BPushError",
+                    "usr": "s:5BPush0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BPush.BPushError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BPushError",
+                        "printedName": "BPush.BPushError",
+                        "usr": "s:5BPush0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5BPush0A5ErrorO17invalidParametersyA2CmF",
+            "mangledName": "$s5BPush0A5ErrorO17invalidParametersyA2CmF",
+            "moduleName": "BPush",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "registerAuthFailed",
+            "printedName": "registerAuthFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BPush.BPushError.Type) -> BPush.BPushError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BPushError",
+                    "printedName": "BPush.BPushError",
+                    "usr": "s:5BPush0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BPush.BPushError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BPushError",
+                        "printedName": "BPush.BPushError",
+                        "usr": "s:5BPush0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5BPush0A5ErrorO18registerAuthFailedyA2CmF",
+            "mangledName": "$s5BPush0A5ErrorO18registerAuthFailedyA2CmF",
+            "moduleName": "BPush",
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "unexpected",
+            "printedName": "unexpected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BPush.BPushError.Type) -> BPush.BPushError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BPushError",
+                    "printedName": "BPush.BPushError",
+                    "usr": "s:5BPush0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BPush.BPushError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BPushError",
+                        "printedName": "BPush.BPushError",
+                        "usr": "s:5BPush0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5BPush0A5ErrorO10unexpectedyA2CmF",
+            "mangledName": "$s5BPush0A5ErrorO10unexpectedyA2CmF",
+            "moduleName": "BPush",
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush0A5ErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s5BPush0A5ErrorO16errorDescriptionSSSgvp",
+            "moduleName": "BPush",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush0A5ErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s5BPush0A5ErrorO16errorDescriptionSSSgvg",
+                "moduleName": "BPush",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BPushError",
+                "printedName": "BPush.BPushError",
+                "usr": "s:5BPush0A5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BPushError",
+                "printedName": "BPush.BPushError",
+                "usr": "s:5BPush0A5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5BPush0A5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s5BPush0A5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "BPush",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush0A5ErrorO9hashValueSivp",
+            "mangledName": "$s5BPush0A5ErrorO9hashValueSivp",
+            "moduleName": "BPush",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush0A5ErrorO9hashValueSivg",
+                "mangledName": "$s5BPush0A5ErrorO9hashValueSivg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5BPush0A5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s5BPush0A5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "BPush",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5BPush0A5ErrorO",
+        "mangledName": "$s5BPush0A5ErrorO",
+        "moduleName": "BPush",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BPush"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KeychainAccess",
+        "printedName": "KeychainAccess",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "addKeychainData",
+            "printedName": "addKeychainData(itemKey:itemValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5BPush14KeychainAccessC03addB4Data7itemKey0F5ValueySS_SStKF",
+            "mangledName": "$s5BPush14KeychainAccessC03addB4Data7itemKey0F5ValueySS_SStKF",
+            "moduleName": "BPush",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteKeychainData",
+            "printedName": "deleteKeychainData(itemKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5BPush14KeychainAccessC06deleteB4Data7itemKeyySS_tKF",
+            "mangledName": "$s5BPush14KeychainAccessC06deleteB4Data7itemKeyySS_tKF",
+            "moduleName": "BPush",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "queryKeychainData",
+            "printedName": "queryKeychainData(itemKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5BPush14KeychainAccessC05queryB4Data7itemKeySSSgSS_tKF",
+            "mangledName": "$s5BPush14KeychainAccessC05queryB4Data7itemKeySSSgSS_tKF",
+            "moduleName": "BPush",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeychainAccess",
+                "printedName": "BPush.KeychainAccess",
+                "usr": "s:5BPush14KeychainAccessC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5BPush14KeychainAccessCACycfc",
+            "mangledName": "$s5BPush14KeychainAccessCACycfc",
+            "moduleName": "BPush",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5BPush14KeychainAccessC",
+        "mangledName": "$s5BPush14KeychainAccessC",
+        "moduleName": "BPush",
+        "isOpen": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BPush"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BPush"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Util",
+        "printedName": "Util",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getUUID",
+            "printedName": "getUUID()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5BPush4UtilC7getUUIDSSSgyFZ",
+            "mangledName": "$s5BPush4UtilC7getUUIDSSSgyFZ",
+            "moduleName": "BPush",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "modelIdentifier",
+            "printedName": "modelIdentifier()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5BPush4UtilC15modelIdentifierSSyFZ",
+            "mangledName": "$s5BPush4UtilC15modelIdentifierSSyFZ",
+            "moduleName": "BPush",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Util",
+                "printedName": "BPush.Util",
+                "usr": "s:5BPush4UtilC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5BPush4UtilCACycfc",
+            "mangledName": "$s5BPush4UtilCACycfc",
+            "moduleName": "BPush",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5BPush4UtilC",
+        "mangledName": "$s5BPush4UtilC",
+        "moduleName": "BPush",
+        "isOpen": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BaseSystemInfo",
+        "printedName": "BaseSystemInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseSystemInfo",
+                "printedName": "BPush.BaseSystemInfo",
+                "usr": "s:5BPush14BaseSystemInfoC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush14BaseSystemInfoC6sharedACvpZ",
+            "mangledName": "$s5BPush14BaseSystemInfoC6sharedACvpZ",
+            "moduleName": "BPush",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BaseSystemInfo",
+                    "printedName": "BPush.BaseSystemInfo",
+                    "usr": "s:5BPush14BaseSystemInfoC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush14BaseSystemInfoC6sharedACvgZ",
+                "mangledName": "$s5BPush14BaseSystemInfoC6sharedACvgZ",
+                "moduleName": "BPush",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bundleID",
+            "printedName": "bundleID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush14BaseSystemInfoC8bundleIDSSvp",
+            "mangledName": "$s5BPush14BaseSystemInfoC8bundleIDSSvp",
+            "moduleName": "BPush",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush14BaseSystemInfoC8bundleIDSSvg",
+                "mangledName": "$s5BPush14BaseSystemInfoC8bundleIDSSvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appVersion",
+            "printedName": "appVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush14BaseSystemInfoC10appVersionSSvp",
+            "mangledName": "$s5BPush14BaseSystemInfoC10appVersionSSvp",
+            "moduleName": "BPush",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush14BaseSystemInfoC10appVersionSSvg",
+                "mangledName": "$s5BPush14BaseSystemInfoC10appVersionSSvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceBrand",
+            "printedName": "deviceBrand",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush14BaseSystemInfoC11deviceBrandSSvp",
+            "mangledName": "$s5BPush14BaseSystemInfoC11deviceBrandSSvp",
+            "moduleName": "BPush",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush14BaseSystemInfoC11deviceBrandSSvg",
+                "mangledName": "$s5BPush14BaseSystemInfoC11deviceBrandSSvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceModel",
+            "printedName": "deviceModel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush14BaseSystemInfoC11deviceModelSSvp",
+            "mangledName": "$s5BPush14BaseSystemInfoC11deviceModelSSvp",
+            "moduleName": "BPush",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush14BaseSystemInfoC11deviceModelSSvg",
+                "mangledName": "$s5BPush14BaseSystemInfoC11deviceModelSSvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "osVersion",
+            "printedName": "osVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush14BaseSystemInfoC9osVersionSSvp",
+            "mangledName": "$s5BPush14BaseSystemInfoC9osVersionSSvp",
+            "moduleName": "BPush",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush14BaseSystemInfoC9osVersionSSvg",
+                "mangledName": "$s5BPush14BaseSystemInfoC9osVersionSSvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceID",
+            "printedName": "deviceID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush14BaseSystemInfoC8deviceIDSSSgvp",
+            "mangledName": "$s5BPush14BaseSystemInfoC8deviceIDSSSgvp",
+            "moduleName": "BPush",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush14BaseSystemInfoC8deviceIDSSSgvg",
+                "mangledName": "$s5BPush14BaseSystemInfoC8deviceIDSSSgvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "platform",
+            "printedName": "platform",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5BPush14BaseSystemInfoC8platformSSvp",
+            "mangledName": "$s5BPush14BaseSystemInfoC8platformSSvp",
+            "moduleName": "BPush",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 6,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5BPush14BaseSystemInfoC8platformSSvg",
+                "mangledName": "$s5BPush14BaseSystemInfoC8platformSSvg",
+                "moduleName": "BPush",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseSystemInfo",
+                "printedName": "BPush.BaseSystemInfo",
+                "usr": "s:5BPush14BaseSystemInfoC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5BPush14BaseSystemInfoCACycfc",
+            "mangledName": "$s5BPush14BaseSystemInfoCACycfc",
+            "moduleName": "BPush",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5BPush14BaseSystemInfoC",
+        "mangledName": "$s5BPush14BaseSystemInfoC",
+        "moduleName": "BPush",
+        "isOpen": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/user\/BPushSDK-ios(2)\/Classes\/API.swift",
+      "kind": "StringLiteral",
+      "offset": 576,
+      "length": 32,
+      "value": "\"https:\/\/bpush-api.zzishare.com\""
+    },
+    {
+      "filePath": "\/Users\/user\/BPushSDK-ios(2)\/Classes\/API.swift",
+      "kind": "StringLiteral",
+      "offset": 632,
+      "length": 27,
+      "value": "\"\/api\/v1\/sdk\/registerToken\""
+    },
+    {
+      "filePath": "\/Users\/user\/BPushSDK-ios(2)\/Classes\/API.swift",
+      "kind": "IntegerLiteral",
+      "offset": 700,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/user\/BPushSDK-ios(2)\/Classes\/BPush.swift",
+      "kind": "StringLiteral",
+      "offset": 253,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/user\/BPushSDK-ios(2)\/Classes\/Util.swift",
+      "kind": "StringLiteral",
+      "offset": 1142,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/user\/BPushSDK-ios(2)\/Classes\/Util.swift",
+      "kind": "StringLiteral",
+      "offset": 1205,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/user\/BPushSDK-ios(2)\/Classes\/Util.swift",
+      "kind": "StringLiteral",
+      "offset": 1362,
+      "length": 5,
+      "value": "\"ios\""
+    }
+  ]
+}
