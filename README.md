@@ -20,6 +20,23 @@ end
 $ pod install
 ```
 
+
+#### Swift Package Manager
+
+* 點選 File > Add Package Dependencies。
+
+![step1](assets/step1.png)
+
+* 複製 https://github.com/balvenie-ios/BPushSDK-ios，將它輸入在 Search or Enter Package URL 的框框裡，選擇 SDK 後點選 Add Package。
+
+![step2](assets/step2.png)
+
+* 勾選它後點選 Add Package，將套件加到專案裡。
+
+![step3](assets/step3.png)
+
+
+
 ### 初始化
 
 #### 將 target 加入 Push Notification 功能
