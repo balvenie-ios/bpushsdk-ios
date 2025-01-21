@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "BPush",
-    "printedName": "BPush",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
     "children": [
       {
         "kind": "Import",
@@ -353,20 +353,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -425,15 +411,15 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "BPush"
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "BPush"
       },
@@ -453,28 +439,7 @@
       "kind": "StringLiteral",
       "offset": 253,
       "length": 7,
-      "value": "\"1.1.0\""
-    },
-    {
-      "filePath": "\/Users\/weichencheng\/BPush\/BPush\/Util.swift",
-      "kind": "StringLiteral",
-      "offset": 1142,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/weichencheng\/BPush\/BPush\/Util.swift",
-      "kind": "StringLiteral",
-      "offset": 1205,
-      "length": 7,
-      "value": "\"Apple\""
-    },
-    {
-      "filePath": "\/Users\/weichencheng\/BPush\/BPush\/Util.swift",
-      "kind": "StringLiteral",
-      "offset": 1362,
-      "length": 5,
-      "value": "\"ios\""
+      "value": "\"1.1.1\""
     },
     {
       "filePath": "\/Users\/weichencheng\/BPush\/BPush\/API.swift",
@@ -496,6 +461,27 @@
       "offset": 700,
       "length": 2,
       "value": "10"
+    },
+    {
+      "filePath": "\/Users\/weichencheng\/BPush\/BPush\/Util.swift",
+      "kind": "StringLiteral",
+      "offset": 1142,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/weichencheng\/BPush\/BPush\/Util.swift",
+      "kind": "StringLiteral",
+      "offset": 1205,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/weichencheng\/BPush\/BPush\/Util.swift",
+      "kind": "StringLiteral",
+      "offset": 1362,
+      "length": 5,
+      "value": "\"ios\""
     }
   ]
 }

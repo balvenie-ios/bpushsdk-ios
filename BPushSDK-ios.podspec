@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BPushSDK-ios'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'iOS BPush 手機端 SDK'
   s.swift_version    = "5.0"
   s.description      = <<-DESC
