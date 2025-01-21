@@ -13,13 +13,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BPush"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -443,59 +436,66 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "BPush"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BPush"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/weichencheng\/BPushSDK-ios\/Classes\/API.swift",
-      "kind": "StringLiteral",
-      "offset": 576,
-      "length": 35,
-      "value": "\"https:\/\/bpushdev-api.zzishare.com\""
-    },
-    {
-      "filePath": "\/Users\/weichencheng\/BPushSDK-ios\/Classes\/API.swift",
-      "kind": "StringLiteral",
-      "offset": 635,
-      "length": 27,
-      "value": "\"\/api\/v1\/sdk\/registerToken\""
-    },
-    {
-      "filePath": "\/Users\/weichencheng\/BPushSDK-ios\/Classes\/API.swift",
-      "kind": "IntegerLiteral",
-      "offset": 703,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/weichencheng\/BPushSDK-ios\/Classes\/BPush.swift",
+      "filePath": "\/Users\/weichencheng\/BPush\/BPush\/BPush.swift",
       "kind": "StringLiteral",
       "offset": 253,
       "length": 7,
-      "value": "\"1.0.0\""
+      "value": "\"1.1.0\""
     },
     {
-      "filePath": "\/Users\/weichencheng\/BPushSDK-ios\/Classes\/Util.swift",
+      "filePath": "\/Users\/weichencheng\/BPush\/BPush\/Util.swift",
       "kind": "StringLiteral",
       "offset": 1142,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/weichencheng\/BPushSDK-ios\/Classes\/Util.swift",
+      "filePath": "\/Users\/weichencheng\/BPush\/BPush\/Util.swift",
       "kind": "StringLiteral",
       "offset": 1205,
       "length": 7,
       "value": "\"Apple\""
     },
     {
-      "filePath": "\/Users\/weichencheng\/BPushSDK-ios\/Classes\/Util.swift",
+      "filePath": "\/Users\/weichencheng\/BPush\/BPush\/Util.swift",
       "kind": "StringLiteral",
       "offset": 1362,
       "length": 5,
       "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/weichencheng\/BPush\/BPush\/API.swift",
+      "kind": "StringLiteral",
+      "offset": 576,
+      "length": 32,
+      "value": "\"https:\/\/bpush-api.zzishare.com\""
+    },
+    {
+      "filePath": "\/Users\/weichencheng\/BPush\/BPush\/API.swift",
+      "kind": "StringLiteral",
+      "offset": 632,
+      "length": 27,
+      "value": "\"\/api\/v1\/sdk\/registerToken\""
+    },
+    {
+      "filePath": "\/Users\/weichencheng\/BPush\/BPush\/API.swift",
+      "kind": "IntegerLiteral",
+      "offset": 700,
+      "length": 2,
+      "value": "10"
     }
   ]
 }
